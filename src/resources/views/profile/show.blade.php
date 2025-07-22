@@ -17,9 +17,9 @@
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536M9 13l6.586-6.586a2 2 0 112.828 2.828L11.828 15.828A2 2 0 019 17H7v-2a2 2 0 01.586-1.414z"/></svg>
                 Modifier mon profil
             </a>
-            <a href="{{ route('dashboard') }}" class="flex items-center gap-2 bg-blue-100 hover:bg-blue-200 text-blue-900 px-5 py-2 rounded-full shadow font-semibold transition">
+            <a href="{{ url('/home') }}" class="flex items-center gap-2 bg-blue-100 hover:bg-blue-200 text-blue-900 px-5 py-2 rounded-full shadow font-semibold transition">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6"/></svg>
-                Retour au dashboard
+                Retour à l'accueil
             </a>
         </div>
     </div>
